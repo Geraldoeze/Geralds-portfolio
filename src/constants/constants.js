@@ -4,7 +4,7 @@ export const projects = [
     description: "This is an application that lets you build a burger of your choice, you can add or remove some parts of the burger and it gets saved on a Firebase database",
       image: '/images/burger.png',
       tags: ['React', 'Firebase'],
-    visit: 'https://burger-build.herokuapp.com/',
+    visit: 'https://burger-app-8ed4f.web.app',
     id: 0,
   },
   {
@@ -34,7 +34,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey during the covid lockdown' },
-  { year: 2021, text: 'Got my First degree in B.Sc Mathematics' },
-  { year: 2021, text: 'Developed my React skills' }
+  { year: 2020, text: 'Started learning JavaScript during the covid lockdown' },
+  { year: 2021, text: 'Became a Front-end developer with React.js and Got my First degree in B.Sc Mathematics' },
+  { year: 2022, text: 'Moved to Back-end programming with Node.js' }
 ]
