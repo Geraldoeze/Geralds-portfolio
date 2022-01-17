@@ -9,7 +9,12 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked on different 
+      I've worked on different React projects, used Next.js for my server-side rendering and Firebase database to
+       store and retrieve data from the backend.
+     </SectionText>  
+      <br />
+    <SectionText >
+      React.js, HTML, JavaScript, Next.js, Firebase, Cascading Style Sheets.
     </SectionText>
     <List>
       <ListItem>
@@ -17,7 +22,16 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with React.js
+            Experience with React for front-end apps.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem> 
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>
+            Experience with Firebase for storing and retrieving users data
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -46,7 +46,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        How did you start learning about 
+        I'm Gerald Ezenagu, an enthuastic React developer that's passionate about becoming a Software Engineer.
+        I write JavaScript codes for building applications and fixing errors. I'm a self-taught React developer with a year's worth of experience 
+        in building React prjects.
+        My interest are mobile applications and MERN stack.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
