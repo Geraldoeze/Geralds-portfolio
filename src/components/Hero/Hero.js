@@ -14,9 +14,9 @@ const Hero = () => (
      </SectionTitle>
      <SectionText>
       I'm Gerald, a React developer. React is all about components,
-       using components to innoviate each part of an application.
+       using components to innoviate each part of an application. This makes our app efficient and reuseable.
      </SectionText>
-     <Button onClick={() => window.location = "https://reactjs.org"}>Learn More</Button>
+     <Button onClick={() => window.location = "https://reactjs.org"}>More on React</Button>
    </LeftSection>
  </Section>
 );
