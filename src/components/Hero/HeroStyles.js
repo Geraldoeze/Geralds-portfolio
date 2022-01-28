@@ -19,8 +19,16 @@ export const LeftSection = styled.div`
 `;
 
 export const Picture = styled.img`
-height: 120px;
-width: 20%;
-text-align: center
-align-item:center;
+height: 380px;
+width: 50%;
+border-box: 4px;
+align-items:center;
+@media ${(props) => props.theme.breakpoints.sm} {
+height: 180px;
+width: 80%
+}
+
+@media ${(props) => props.theme.breakpoints.md} {
+  height: 300px;
+}
 `
