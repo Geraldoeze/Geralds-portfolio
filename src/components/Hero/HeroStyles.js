@@ -17,3 +17,10 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const Picture = styled.img`
+height: 120px;
+width: 20%;
+text-align: center
+align-item:center;
+`
