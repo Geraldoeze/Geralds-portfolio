@@ -7,7 +7,7 @@ import { LeftSection, Picture } from './HeroStyles';
 const Hero = () => (
  <Section row nopadding>
    <LeftSection>
-    <Picture src='/images/g_pics.jpg'/>
+    <Picture src='/images/see.jpg'/>
      <SectionTitle main center>
         Hello there, <br />
        Welcome To <br />
