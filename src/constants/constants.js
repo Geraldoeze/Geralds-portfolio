@@ -7,22 +7,7 @@ export const projects = [
     visit: 'https://burger-app-8ed4f.web.app',
     id: 0,
   },
-  {
-    title: 'Robo-App',
-    description: "This applicationn fetches data from a database ",
-    image: '/images/Robo_edited.jpg',
-    tags: ['React.js', 'JavaScript', 'JSONplaceholder'],
-    visit: 'https://robo-frnd.herokuapp.com/',
-    id: 1,
-  },
-  {
-    title: ' Todo-App',
-    description: "A todo application helps in achieveing our daily goals, we can arrange our goals for the day in this application",
-      image: '/images/todos.png',
-      tags: ['React.js', 'JavaScript'],
-    visit: 'https://todos-prime.herokuapp.com/',
-    id: 2,
-  },
+ 
   {
     title: 'Reciepe-blog',
     description: "My first website with Next.js and React is a website thats stores users reciepe and ingredients",
