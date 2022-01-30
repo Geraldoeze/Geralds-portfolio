@@ -22,7 +22,7 @@ export const projects = [
     description: "Track your income and expenses with this application. Know how much money you spend on items you need.",
       image: '/images/Expenses.png',
       tags: ['React.js'],
-    visit: 'https://p.herokuapp.com/',
+    visit: 'https://expense-usage.herokuapp.com/',
     id: 1,
   },
  
