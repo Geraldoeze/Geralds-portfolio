@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'React Application',
     description: "This React application stores items and amount in a Realtime Firebase Database, then gets the stored items and displays it on the browser DOM",
-      image: '/images/.png',
+      image: '/images/hook.png',
       tags: ['React.js', 'Firebase'],
     visit: 'https://hooks-app.herokuapp.com/',
     id: 1,
@@ -26,14 +26,7 @@ export const projects = [
     id: 1,
   },
  
-  {
-    title: 'Reciepe-blog',
-    description: "My first website with Next.js and React is a website thats stores users reciepe and ingredients",
-    image: '/images/reciepe.png',
-    tags: ['React.js', 'Next', 'JSONplaceholder'],
-    visit: 'https://reciepe.vercel.app/',
-    id: 3,
-  },
+  
 ];
 
 export const TimeLineData = [
