@@ -23,10 +23,17 @@ export const projects = [
       image: '/images/Expenses.png',
       tags: ['React.js'],
     visit: 'https://expense-usage.herokuapp.com/',
-    id: 1,
+    id: 2,
   },
  
-  
+  {
+    title: 'Robo-App',
+    description: "This application sends a get requests to a JSON placeholder and recieve a response which is rendered while getting a robo image for each of the users.",
+      image: '/images/Robo.png',
+      tags: ['React.js'],
+    visit: 'https://robo-frnd.herokuapp.com/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
