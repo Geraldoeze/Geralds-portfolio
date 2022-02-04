@@ -1,4 +1,5 @@
 // import Acomplishments from '../components/Acomplishments/Acomplishments';
+import Head from 'next/head';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
@@ -9,6 +10,11 @@ import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
   return (
+    <>
+    <Head>
+      <title>Gerald's Portfolio</title>
+      <link rel='icon' href='/images/see.jpg'/>
+    </Head>
     <Layout>
       <Section grid>
         <Hero />
@@ -19,6 +25,7 @@ const Home = () => {
       <Timeline />
       {/* <Acomplishments /> */}
     </Layout>
+    </>
   );
 };
 
