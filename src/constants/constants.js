@@ -13,7 +13,7 @@ export const projects = [
     description: "This React application stores items and amount in a Realtime Firebase Database, then gets the stored items and displays it on the browser DOM",
       image: '/images/hook.png',
       tags: ['React.js', 'Firebase'],
-    visit: 'https://hooks-app.herokuapp.com/',
+    visit: [],//'https://hooks-app.herokuapp.com/',
     id: 1,
   },
   
