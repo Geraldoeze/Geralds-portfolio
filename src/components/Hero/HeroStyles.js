@@ -21,7 +21,7 @@ export const LeftSection = styled.div`
 export const Picture = styled.img`
 height: 400px;
 width: 50%;
-border-radius: 50%;
+border-radius: 25px;
 align-items:center;
 @media ${(props) => props.theme.breakpoints.sm} {
 height: 150px;
