@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Realtor',
-    description: '',
+    description: 'A Project built with Next.js that displays the information gotten from rapidAPI. It shows the places available for sale or for rent. ',
     image: '/images/realtor.png',
     tags: ['Next.js', 'React.js', 'RapidAPI'],
     visit: 'https://realtor-app-seven.vercel.app/',
