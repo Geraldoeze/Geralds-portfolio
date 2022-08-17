@@ -1,17 +1,17 @@
 export const projects = [
   {
-    title: '',
+    title: 'Realtor',
     description: '',
-    image: '',
-    tags: '',
-    visit: '',
+    image: '/images/realtor.png',
+    tags: ['Next.js', 'React.js', 'RapidAPI'],
+    visit: 'https://realtor-app-seven.vercel.app/',
     id: 0
   },
   {
     title: 'Gericht',
     description: '',
-    image: '',
-    tags: '',
+    image: '/images/gericht2.png',
+    tags: ['React.js'],
     visit: 'https://gericht-app.vercel.app/',
     id: 1
   },
@@ -33,10 +33,10 @@ export const projects = [
     id: 3,
   },
   {
-    title: '',
+    title: 'Church App',
     description: '',
-    image: '',
-    tags: '',
+    image: '/images/church.png',
+    tags: ['React.js'],
     visit: 'https://church-app-nu.vercel.app/',
     id: 4
   }
