@@ -13,7 +13,7 @@ const Home = () => {
     <>
     <Head>
       <title>Gerald's Portfolio</title>
-      <link rel='icon' href='/images/see.jpg'/>
+      <link rel='icon' href='/images/geraldicon.png'/>
     </Head>
     <Layout>
       <Section grid>
