@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Realtor',
-    description: 'A Project built with Next.js that displays the information gotten from rapidAPI. It shows the places available for sale or for rent. ',
+    description: 'A Project built with Next.js that displays the information gotten from rapidAPI. It shows the places available for sale or for rent and information about the place. ',
     image: '/images/realtor.png',
     tags: ['Next.js', 'React.js', 'RapidAPI'],
     visit: 'https://realtor-app-seven.vercel.app/',
@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: 'Gericht',
-    description: '',
+    description: 'This is a restaurant landing page that shows the meals a restaurant offers to customers.',
     image: '/images/gericht2.png',
     tags: ['React.js'],
     visit: 'https://gericht-app.vercel.app/',
@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     title: 'Church App',
-    description: '',
+    description: 'An appication that shows information about a church programs and evemts.',
     image: '/images/church.png',
     tags: ['React.js'],
     visit: 'https://church-app-nu.vercel.app/',
