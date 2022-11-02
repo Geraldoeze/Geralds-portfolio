@@ -9,15 +9,14 @@ const Hero = () => (
    <LeftSection>
     <Picture src='/images/see.jpg' alt='gerald'/>
      <SectionTitle main center>
-        Hello there, <br />
-       Welcome To <br />
-       My Personal Portfolio
+        Hi there, <br />
+        I'm Gerald, <br />
+       A front-end developer.
      </SectionTitle>
      <SectionText>
-      I'm Gerald, a React developer. React is all about components,
-       using components to innoviate each part of an application. This makes our app efficient and reuseable.
+      Creating awesome User Interface with React.js and JavaScript language.
      </SectionText>
-     <Button onClick={() => window.location = "https://reactjs.org"}>More on React</Button>
+     {/* <Button onClick={() => window.location = "https://reactjs.org"}>More on React</Button> */}
    </LeftSection>
  </Section>
 );
