@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiDatabase, DiReact, DiNodejsSmall } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,12 +9,12 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked on different React projects, used Next.js for my server-side rendering and Firebase database to
-       store and retrieve data from the backend.
+      I've used React for my frontend applications and Node.js and Next.js for backend. 
+      The complexity of the project determines the framework to be used.
      </SectionText>  
       <br />
     <SectionText >
-      React.js, HTML, JavaScript, Next.js, Firebase, Cascading Style Sheets.
+      React.js, HTML, JavaScript, Next.js, Node.js, Express, Cascading Style Sheets, GitHub, MongoDB.
     </SectionText>
     <List>
       <ListItem>
@@ -22,16 +22,25 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with React for front-end apps.
+            Experience with React.js for front-end applications.
           </ListParagraph>
         </ListContainer>
       </ListItem> 
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiDatabase size="3rem" />
         <ListContainer>
           <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Experience with Firebase for storing and retrieving users data
+            Experience with MongoDB for storing and retrieving users data.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiNodejsSmall size="3rem" />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with Node.js and Express for Back-end applications
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -15,7 +15,7 @@ const Home = () => {
       <title>Gerald's Portfolio</title>
       <link rel='icon' href='/images/geraldicon.png' style={{height: '50px', width: '64px' }}/>
     </Head>
-    {/* <Layout>
+    <Layout>
       <Section grid>
         <Hero />
         <BgAnimation />
@@ -24,7 +24,8 @@ const Home = () => {
       <Technologies />
       <Timeline />
       
-    </Layout> */}
+    </Layout>
+    
     </>
   );
 };

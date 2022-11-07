@@ -11,10 +11,10 @@ const Hero = () => (
      <SectionTitle main center>
         Hi there, <br />
         I'm Gerald, <br />
-       A front-end developer.
+       A MERN stack developer.
      </SectionTitle>
      <SectionText>
-      Creating awesome User Interface with React.js and JavaScript language.
+      
      </SectionText>
      {/* <Button onClick={() => window.location = "https://reactjs.org"}>More on React</Button> */}
    </LeftSection>
