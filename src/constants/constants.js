@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Student App',
-    description: 'An application built with MERN stack for handling students registration, courses and attendance. A Material-UI template was used in this project, which helped with the site structure',
+    description: "An application built with MERN stack for handling students registration, courses and attendance. It also validates a user email whenever they sign up and confirms if a user's email has been checked before they can sign In. Material-UI template was used in this project, which helped with the site structure",
     image: '/images/bioImage.png',
     tags: ['React.js', 'Material-UI', 'Node.js', ' ', 'Express.js', ' ', 'MongoDb'],
     visit: 'https://biometric-react.pages.dev/',
@@ -19,32 +19,32 @@ export const projects = [
     title: 'Fitness-page',
     description: "This is a fitness page which shows different features for work out and body building",
       image: '/images/fitImage.png',
-      tags: ['React.js', 'Vite.js', 'TailwindCSS'],
+      tags: ['React.js', 'Vite.js', 'TailwindCSS', 'TypeScript'],
     visit: 'https://fitness-t.netlify.app/',
     id: 2,
   },
 
-  // {
-  //   title: 'React Application',
-  //   description: "This React application stores items and amount in a Realtime Firebase Database, then gets the stored items and displays it on the browser DOM",
-  //     image: '/images/hook.png',
-  //     tags: ['React.js', 'Firebase'],
-  //   visit: 'https://hooks-app.herokuapp.com/',
-  //   id: 3,
-  // },
-  // {
-  //   title: 'Church App',
-  //   description: 'An appication that shows information about a church programs and evemts.',
-  //   image: '/images/church.png',
-  //   tags: ['React.js'],
-  //   visit: 'https://church-app-nu.vercel.app/',
-  //   id: 4
-  // }
+  {
+    title: 'Location-site',
+    description: "A site built with MERN stack, It allows a user that has sign in to upload images and location of places to the server, where it confirms the location of that place with Google Map API and sends the longitude and latitude of that location ( if found ) to the front-end when then displays the location on a Map.",
+      image: '/images/chinaImg.png',
+      tags: ['React.js', 'Node.js', 'Express.js', 'MongoDb'],
+    visit: 'https://locations-maps.vercel.app/',
+    id: 3,
+  },
+  {
+    title: 'Space',
+    description: 'This site is a challenge on frontent mentors coding challege. I completed the challenge by building the site based on the Figma designs given to me and ensured every details was implemented in the application.',
+    image: '/images/spaceImg.png',
+    tags: ['React.js', 'TailwindCSS'],
+    visit: 'https://space-info.vercel.app/',
+    id: 4
+  }
   
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: 'Became a Front-end developer with React.js' },
+  { year: 2021, text: 'Became a Front-end developer with React.js, HTML and CSS' },
   { year: 2022, text: 'Back-end programming with Node and Express.js' },
   { year: 2023, text: 'Currently learning more about Database [ MongoDB, MySQL ]' },
 ]
