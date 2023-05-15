@@ -19,18 +19,20 @@ export const LeftSection = styled.div`
 `;
 
 export const Picture = styled.img`
-height: 400px;
-width: 50%;
+height: 300px;
+width: 300px;
 border: 3px solid rgb(183, 188, 190);
 border-radius: 50%;
 align-items:center;
 @media ${(props) => props.theme.breakpoints.sm} {
-height: 150px;
-width: 60%
+  height: 300px;
+  width: 300px
+
 }
 
 @media ${(props) => props.theme.breakpoints.md} {
-  height: 180px;
+  height: 200px;
+width: 170px
 
 }
 `

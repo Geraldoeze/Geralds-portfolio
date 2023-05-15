@@ -1,28 +1,28 @@
 export const projects = [
-  // {
-  //   title: 'Realtor',
-  //   description: 'A Project built with Next.js that displays the information gotten from rapidAPI. It shows the places available for sale or for rent and information about the place. ',
-  //   image: '/images/realtor.png',
-  //   tags: ['Next.js', 'React.js', 'RapidAPI'],
-  //   visit: 'https://realtor-app-seven.vercel.app/',
-  //   id: 0
-  // },
-  // {
-  //   title: 'Gericht',
-  //   description: 'This is a restaurant landing page that shows the meals a restaurant offers to customers.',
-  //   image: '/images/gericht2.png',
-  //   tags: ['React.js'],
-  //   visit: 'https://gericht-app.vercel.app/',
-  //   id: 1
-  // },
-  // {
-  //   title: 'Burger Application',
-  //   description: "This is an application that lets you build a burger of your choice, you can add or remove some parts of the burger and it gets saved on a Firebase database",
-  //     image: '/images/burger.png',
-  //     tags: ['React.js', 'Firebase'],
-  //   visit: 'https://burger-app-8ed4f.web.app',
-  //   id: 2,
-  // },
+  {
+    title: 'Student App',
+    description: 'An application built with MERN stack for handling students registration, courses and attendance. A Material-UI template was used in this project, which helped with the site structure',
+    image: '/images/bioImage.png',
+    tags: ['React.js', 'Material-UI', 'Node.js', ' ', 'Express.js', ' ', 'MongoDb'],
+    visit: 'https://biometric-react.pages.dev/',
+    id: 0
+  },
+  {
+    title: 'Dpd Online',
+    description: 'Was opportune to work with the developer that was given the task of updating dpdonline.ng website. This site was built with php which is not my field, but I was able to build the landing and Signup page from the designs given with HTML, CSS and basic Javascript.',
+    image: '/images/dpdImage.png',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    visit: 'https://app.dpdonline.ng/landing',
+    id: 1
+  },
+  {
+    title: 'Fitness-page',
+    description: "This is a fitness page which shows different features for work out and body building",
+      image: '/images/fitImage.png',
+      tags: ['React.js', 'Vite.js', 'TailwindCSS'],
+    visit: 'https://fitness-t.netlify.app/',
+    id: 2,
+  },
 
   // {
   //   title: 'React Application',
@@ -44,7 +44,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started learning JavaScript during the covid lockdown' },
-  { year: 2021, text: 'Became a Front-end developer with React.js and Got a degree in B.Sc Mathematics' },
-  { year: 2022, text: 'Back-end programming with Node.js' }
+  { year: 2021, text: 'Became a Front-end developer with React.js' },
+  { year: 2022, text: 'Back-end programming with Node and Express.js' },
+  { year: 2023, text: 'Currently learning more about Database [ MongoDB, MySQL ]' },
 ]

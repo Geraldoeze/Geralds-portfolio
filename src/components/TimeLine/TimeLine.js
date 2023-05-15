@@ -46,9 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm Gerald Ezenagu, an enthuastic React developer that's passionate about becoming a Software Engineer.
-        I write JavaScript codes for building applications and fixing errors. I'm a self-taught React developer with a year's worth of experience 
-        in building React projects.
+        I'm Gerald Ifeanyi Ezenagu, an enthuastic JavaScript developer that's passionate about becoming a Software Engineer.
+        I write JavaScript codes for building web applications and fixing bugs and errors. I'm a self-taught javascript developer with two year's worth of experience 
+        in building React and Node applications.
         My interest are mobile applications and MERN stack.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

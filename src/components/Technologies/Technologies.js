@@ -9,12 +9,14 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've used React for my frontend applications and Node.js and Next.js for backend. 
-      The complexity of the project determines the framework to be used.
+      React for Front-end. 
+      Node and Express for Back-end.<br />
+      MongoDb for Database Storage.
+      The complexity of the project determines the framework to be used, be it React, Next.js or a Full-stack application. 
      </SectionText>  
       <br />
     <SectionText >
-      React.js, HTML, JavaScript, Next.js, Node.js, Express, Cascading Style Sheets, GitHub, MongoDB.
+       HTML, JavaScript, Cascading Style Sheets, React.js, Next.js, Vite.js, Node.js, Express, MongoDB, TailwindCSS, Material-Ui, PrimeReact, GitHub, Postman, REST API.
     </SectionText>
     <List>
       <ListItem>
@@ -22,7 +24,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with React.js for front-end applications.
+            Experience with React.js, Next.js for front-end applications.
           </ListParagraph>
         </ListContainer>
       </ListItem> 
