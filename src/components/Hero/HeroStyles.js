@@ -19,8 +19,9 @@ export const LeftSection = styled.div`
 `;
 
 export const Picture = styled.img`
-height: 300px;
-width: 300px;
+height: 350px;
+width: 350px;
+background-position: top;
 border: 3px solid rgb(183, 188, 190);
 border-radius: 50%;
 align-items:center;
