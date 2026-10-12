@@ -1,4 +1,4 @@
-import { pgTable, text, timestamp, boolean, integer, jsonb } from 'drizzle-orm/pg-core'
+import { pgTable, text, timestamp, boolean, integer,   uuid, } from 'drizzle-orm/pg-core'
 
 // Better Auth Tables
 export const user = pgTable('user', {
@@ -53,7 +53,7 @@ export const verification = pgTable('verification', {
 
 // Portfolio CMS Tables
 export const about = pgTable('about', {
-  id: text('id').primaryKey().defaultNow(),
+  id: uuid('id').defaultRandom().primaryKey(),
   userId: text('userId').notNull(),
   title: text('title'),
   description: text('description'),
@@ -63,7 +63,7 @@ export const about = pgTable('about', {
 })
 
 export const workExperience = pgTable('work_experience', {
-  id: text('id').primaryKey().defaultNow(),
+  id: uuid('id').defaultRandom().primaryKey(),
   userId: text('userId').notNull(),
   title: text('title').notNull(),
   company: text('company').notNull(),
@@ -78,7 +78,7 @@ export const workExperience = pgTable('work_experience', {
 })
 
 export const stack = pgTable('stack', {
-  id: text('id').primaryKey().defaultNow(),
+  id: uuid('id').defaultRandom().primaryKey(),
   userId: text('userId').notNull(),
   name: text('name').notNull(),
   category: text('category').notNull(), // 'frontend', 'backend', 'tools', 'databases'
@@ -90,7 +90,7 @@ export const stack = pgTable('stack', {
 })
 
 export const project = pgTable('project', {
-  id: text('id').primaryKey().defaultNow(),
+  id: uuid('id').defaultRandom().primaryKey(),
   userId: text('userId').notNull(),
   title: text('title').notNull(),
   description: text('description'),
